@@ -6,6 +6,7 @@
 
 std::string to_string(const Product& product) {
     std::ostringstream oss;
+    std::string s;
     oss << product.get_name() << " [" << product.get_id() << "] : "
         << std::setprecision(2) << std::fixed << "$" << product.get_price();
     return oss.str();
