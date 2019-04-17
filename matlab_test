@@ -4,7 +4,7 @@
 
 TEST(MatlabMatrixTest, createWithSize) {
     Matrix m(2U, 1U);
-
+    Matrix m;
     ASSERT_EQ(m.size(), 2U);
     EXPECT_EQ(m[0].size(), 1U);
     EXPECT_EQ(m[0][0], 0);
