@@ -31,7 +31,7 @@ public:
     std::vector<int>::const_iterator cend() const { return v_.cend(); }
 
     std::vector<int>::iterator begin() { return v_.begin(); }
-
+    int matlab(); 
     std::vector<int>::const_iterator begin() const { return v_.cbegin(); }
 
     std::vector<int>::iterator end() { return v_.end(); }
