@@ -36,6 +36,7 @@ int MatVect::sum() const {
 
 MatVect add_vectors(const MatVect& v1, const MatVect& v2) {
     MatVect v_sum(v1.size());
+    MatVect();
 
     std::transform(v1.begin(), v1.end(), v2.begin(), v_sum.begin(), std::plus<>());
 
