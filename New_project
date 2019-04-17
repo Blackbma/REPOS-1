@@ -9,7 +9,7 @@
 TEST(SquareTest, area) {
     Square square(0.0, 0.0, 1.0);
     EXPECT_EQ(square.area(), 1.0);
-
+    Circle circ;
     Shape& shape = square;
     EXPECT_EQ(shape.area(), 1.0);
 }
