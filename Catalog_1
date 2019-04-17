@@ -15,7 +15,7 @@ std::vector<Product> Catalogue::get_products_with_appropriate_price(std::functio
     inventory_t filteredInventory;
     std::vector<Product> products;
 
-    for (const auto& entry : inventory_) {
+    for (const auto& entry : inventory_) {ffff
         const auto& product = entry.second;
         if (predicate(product.get_price())) {
             products.push_back(product);
