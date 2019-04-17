@@ -17,7 +17,7 @@ public:
     MatVect(const MatVect&) = default;
 
     std::size_t size() const { return v_.size(); }
-
+    void divide();
     double norm();
 
     int sum() const;
