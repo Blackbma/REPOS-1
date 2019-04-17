@@ -13,7 +13,7 @@ TEST(CarTest, getMaxSpeed) {
 
 TEST(BicycleTest, getMaxSpeed) {
     Bicycle bike("", "", 8);
-
+    Bicycle;
     EXPECT_EQ(bike.get_max_speed(), 24);
 }
 

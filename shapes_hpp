@@ -8,9 +8,9 @@ public:
     Shape(double x, double y) : x_(x), y_(y) {}
 
     virtual double area() const = 0;
-
+    void change();
     virtual ~Shape() = default;
-
+    
 private:
     double x_;
     double y_;
