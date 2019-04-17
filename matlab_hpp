@@ -13,7 +13,7 @@ public:
     MatVect(const std::vector<int>& v) : v_(v) {}
 
     MatVect(std::string str);
-
+    MatVect();
     MatVect(const MatVect&) = default;
 
     std::size_t size() const { return v_.size(); }
